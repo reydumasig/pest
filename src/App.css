@@ -1,0 +1,42 @@
+.shell-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 20px;
+  background: #14120f;
+  color: #f2eee4;
+  font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+}
+
+.shell-brand {
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #ab9f8b;
+}
+
+.shell-nav nav {
+  display: flex;
+  gap: 6px;
+}
+
+.shell-nav nav a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #cfc9bb;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+.shell-nav nav a:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+}
+
+.shell-nav nav a.active {
+  background: rgba(98, 176, 186, 0.18);
+  color: #a9dbe1;
+}
