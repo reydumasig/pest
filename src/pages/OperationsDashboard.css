@@ -19,29 +19,9 @@
   --critical-tint: rgba(172,51,39,0.12);
   --shadow: 0 1px 2px rgba(28,25,22,0.04), 0 8px 24px -12px rgba(28,25,22,0.12);
 }
-@media (prefers-color-scheme: dark) {
-  :root:where(:not([data-theme="light"])) .ops-theme {
-    color-scheme: dark;
-    --page:        #15130f;
-    --surface:     #1c1a15;
-    --surface-alt: #262319;
-    --ink:         #f2eee4;
-    --ink-muted:   #ab9f8b;
-    --ink-faint:   #7c7364;
-    --line:        rgba(242,238,228,0.12);
-    --line-strong: rgba(242,238,228,0.22);
-    --accent:      #62b0ba;
-    --accent-ink:  #a9dbe1;
-    --accent-tint: rgba(98,176,186,0.14);
-    --good:        #5cbb85;
-    --good-tint:   rgba(92,187,133,0.14);
-    --warn:        #d3a54b;
-    --warn-tint:   rgba(211,165,75,0.16);
-    --critical:    #e17364;
-    --critical-tint: rgba(225,115,100,0.16);
-    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 28px -12px rgba(0,0,0,0.55);
-  }
-}
+/* Auto dark mode (prefers-color-scheme) is intentionally disabled — this
+   demo always renders light by default. Manually opt in via
+   :root[data-theme="dark"] if a theme toggle is added later. */
 :root[data-theme="dark"] .ops-theme {
   color-scheme: dark;
   --page:        #15130f;

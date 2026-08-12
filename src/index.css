@@ -9,7 +9,7 @@ html, body {
 
 body {
   font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
-  color-scheme: light dark;
+  color-scheme: light;
 }
 
 #root {
